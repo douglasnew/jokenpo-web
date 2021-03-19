@@ -87,6 +87,7 @@ public class GameController {
         model.addAttribute("nome", jogador.getNome());
         model.addAttribute("escolhaComputador", escolhaComputador);
         model.addAttribute("ganhador", ganhadorRodada);
+        model.addAttribute("contador", count);
 
         return "game";
     }
