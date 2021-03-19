@@ -52,6 +52,11 @@ public class GameController {
         zerarCounts();
         
         jogador = jogadorDto.toJogador();
+
+        if (jogador.getNome().equals("")) {
+            model.addAttribute("mensagem", "Por gentileza, informe seu nome para iniciar a partida!");
+            return "home";
+        }
         
         model.addAttribute("nome", jogador.getNome());
 

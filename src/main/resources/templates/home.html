@@ -22,6 +22,10 @@
 
         <div class="container">
 
+            <div class="mb-4">
+                <span class="alert alert-warning" th:if="${mensagem}"><span th:text="${mensagem}" /></span>
+            </div>
+
             <form action="/game" method="post">
 
                 <label for="Jogador">Insira seu nome:</label>
@@ -30,7 +34,7 @@
                 <button type="submit" class="btn btn-primary" name="iniciar">INICIAR JOGO</button>
 
             </form>
-
+            
         </div>
 
     </main>
