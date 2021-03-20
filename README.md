@@ -26,6 +26,10 @@ Step-by-step Rodar App:
             vencedor VARCHAR(20)
         );
 
+
+        OBS.: As strings de conexão com o BD estão no arquivo application.properties
+        
+
     2- Para rodar a aplicação, é necessário startar a classe JokenpoWebApplication.java;
     3- Acessar via browser o seguinte endereço:
             
