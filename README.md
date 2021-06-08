@@ -36,3 +36,5 @@ Step-by-step Rodar App:
             http://localhost:8080/home
 
     4- Iniciar o fluxo do sistema.
+
+    5- Step test para validar "git fetch".
